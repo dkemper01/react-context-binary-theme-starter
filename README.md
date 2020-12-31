@@ -1,7 +1,7 @@
 To clone the repository, run
 
 ```bash
-https://github.com/zolomohan/react-context-dark-mode-starter.git
+git clone https://github.com/zolomohan/react-context-dark-mode-starter.git
 ```
 
 To install the dependencies, run
