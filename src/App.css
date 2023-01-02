@@ -19,47 +19,54 @@
   cursor: pointer;
 }
 
+.theme-binary.light .heading {
+  color: #222;
+  transition: color 0.333s ease-out;
+}
+
+.theme-binary.dark .heading {
+  color: #fff;
+  transition: color 0.333s ease-out;
+}
+
+.theme-binary.light .para {
+  color: #222;
+  transition: color 0.333s ease-out;
+}
+
+.theme-binary.dark .para {
+  color: #fff;
+  transition: color 0.333s ease-out;
+}
+
+.theme-binary.light .bg {
+  background-color: #fff;
+  transition: background-color 0.333s ease-out;
+}
+
+.theme-binary.dark .bg {
+  background-color: #222;
+  transition: background-color 0.333s ease-out;
+}
+
 .para {
   width: 70vw;
 }
 
 /* Light Mode Styles */
 
-.bg-light {
-  background-color: #fff;
-}
-
-.heading-light {
-  color: #222;
-}
-
-.para-light {
-  color: #222;
-}
-
 .btn-light {
   background-color: #222;
   color: #fff;
   font-size: 15px;
   cursor: pointer;
+  transition: background-color 0.333s ease-out, color 0.333s ease-out;
 }
 
 /* Dark Mode Styles */
 
-.bg-dark {
-  background-color: #222;
-}
-
-.heading-dark {
-  color: #fff;
-}
-
-.para-dark {
-  color: #fff;
-}
-
 .btn-dark {
   background-color: #fff;
   color: #222;
-
+  transition: background-color 0.333s ease-out, color 0.333s ease-out;
 }
