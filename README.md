@@ -2,7 +2,6 @@
 
 [Demo](https://d3csj2qyo9e6ux.cloudfront.net/)
 
-The
 
 This repository is a small React 18 app, originally cloned from https://github.com/zolomohan/react-context-dark-mode. It uses a single `Context` object called ThemeContext, for exposing a `darkMode` flag to all components in the component tree.  
 
